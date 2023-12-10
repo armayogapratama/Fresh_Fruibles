@@ -1,0 +1,245 @@
+{
+    "vegetables": [
+        {
+            "image": "images/vegetables/beans.jpg",
+            "name": "beans",
+            "price": 7000
+        },
+        {
+            "image": "images/vegetables/cabbage.jpg",
+            "name": "cabbage",
+            "price": 12000
+        },
+        {
+            "image": "images/vegetables/carrot.jpg",
+            "name": "carrot",
+            "price": 11000
+        },
+        {
+            "image": "images/vegetables/celery.jpg",
+            "name": "celery",
+            "price": 5000
+        },
+        {
+            "image": "images/vegetables/chili.jpg",
+            "name": "chili",
+            "price": 26000
+        },
+        {
+            "image": "images/vegetables/corn.jpg",
+            "name": "corn",
+            "price": 15000
+        },
+        {
+            "image": "images/vegetables/cucumber.jpg",
+            "name": "cucumber",
+            "price": 8000
+        },
+        {
+            "image": "images/vegetables/eggplant.jpg",
+            "name": "eggplant",
+            "price": 9000
+        },
+        {
+            "image": "images/vegetables/garlic.jpg",
+            "name": "garlic",
+            "price": 48000
+        },
+        {
+            "image": "images/vegetables/pepper.jpg",
+            "name": "pepper",
+            "price": 56000
+        },
+        {
+            "image": "images/vegetables/potato.jpg",
+            "name": "potato",
+            "price": 17000
+        },
+        {
+            "image": "images/vegetables/shallots.jpg",
+            "name": "shallots",
+            "price": 17000
+        },
+        {
+            "image": "images/vegetables/tomato.jpg",
+            "name": "tomato",
+            "price": 8000
+        }
+    ],
+    "juices": [
+        {
+            "image": "images/juice/bread.jpg",
+            "name": "bread",
+            "price": 5000
+        },
+        {
+            "image": "images/juice/cheese.jpg",
+            "name": "cheese",
+            "price": 26000
+        },
+        {
+            "image": "images/juice/egg.jpg",
+            "name": "egg",
+            "price": 12500
+        },
+        {
+            "image": "images/juice/flour.jpg",
+            "name": "flour",
+            "price": 14000
+        },
+        {
+            "image": "images/juice/milk.jpg",
+            "name": "milk",
+            "price": 13000
+        },
+        {
+            "image": "images/juice/rice.jpg",
+            "name": "rice",
+            "price": 14000
+        },
+        {
+            "image": "images/juice/snack.jpg",
+            "name": "snack",
+            "price": 8000
+        },
+        {
+            "image": "images/juice/soya.jpg",
+            "name": "soya beans",
+            "price": 13000
+        }
+    ],
+    "meats": [
+        {
+            "image": "images/meat/beef.jpg",
+            "name": "beef",
+            "price": 67000
+        },
+        {
+            "image": "images/meat/chevon.jpg",
+            "name": "chevon",
+            "price": 34000
+        },
+        {
+            "image": "images/meat/chicken.jpg",
+            "name": "chicken",
+            "price": 25000
+        },
+        {
+            "image": "images/meat/clam.jpg",
+            "name": "clam",
+            "price": 19000
+        },
+        {
+            "image": "images/meat/crab.jpg",
+            "name": "crab",
+            "price": 14000
+        },
+        {
+            "image": "images/meat/lobster.jpg",
+            "name": "lobster",
+            "price": 23000
+        },
+        {
+            "image": "images/meat/mushroom.jpg",
+            "name": "mushroom",
+            "price": 16000
+        },
+        {
+            "image": "images/meat/shrimp.jpg",
+            "name": "shrimp",
+            "price": 11000
+        }
+    ],
+    "fruits": [
+        {
+            "image": "images/fruit/apple.jpg",
+            "name": "apple",
+            "price": 13000
+        },
+        {
+            "image": "images/fruit/avocado.jpg",
+            "name": "avocado",
+            "price": 16000
+        },
+        {
+            "image": "images/fruit/banana.jpg",
+            "name": "banana",
+            "price": 11000
+        },
+        {
+            "image": "images/fruit/dragon.jpg",
+            "name": "dragon fruit",
+            "price": 17000
+        },
+        {
+            "image": "images/fruit/grape.jpg",
+            "name": "grape",
+            "price": 24000
+        },
+        {
+            "image": "images/fruit/guava.jpg",
+            "name": "guava",
+            "price": 12000
+        },
+        {
+            "image": "images/fruit/honeydew.jpg",
+            "name": "honeydew",
+            "price": 13000
+        },
+        {
+            "image": "images/fruit/kiwi.jpg",
+            "name": "kiwi",
+            "price": 23000
+        },
+        {
+            "image": "images/fruit/lemon.jpg",
+            "name": "lemon",
+            "price": 11000
+        },
+        {
+            "image": "images/fruit/longan.jpg",
+            "name": "longan",
+            "price": 19000
+        },
+        {
+            "image": "images/fruit/mango.jpg",
+            "name": "mango",
+            "price": 11500
+        },
+        {
+            "image": "images/fruit/mangosteen.jpg",
+            "name": "mangosteen",
+            "price": 17000
+        },
+        {
+            "image": "images/fruit/orange.jpg",
+            "name": "orange",
+            "price": 17000
+        },
+        {
+            "image": "images/fruit/papaya.jpg",
+            "name": "papaya",
+            "price": 8000
+        },
+        {
+            "image": "images/fruit/pineapple.jpg",
+            "name": "pineapple",
+            "price": 9000
+        },
+        {
+            "image": "images/fruit/rambutan.jpg",
+            "name": "rambutan",
+            "price": 13000
+        },
+        {
+            "image": "images/fruit/strawberry.jpg",
+            "name": "strawberry",
+            "price": 27000
+        },
+        {
+            "image": "images/fruit/watermelon.jpg",
+            "name": "watermelon",
+            "price": 15000
+        }
+    ]
+}

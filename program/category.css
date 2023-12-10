@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,700;1,6..12,600&display=swap');
+
+:root {
+    --green: #27ae60;
+    --black: #2c2c54;
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+*::selection {
+    background-color: var(--green);
+    color: #fff;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6.5rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 200rem;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--black);
+    border-bottom: .1rem solid var(--black);
+    text-align: center;
+    padding-top: 5rem;
+}
+
+h1 span {
+    font-size: 3rem;
+    color: var(--green);
+}
+
+.product-category .categoryMenu {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.product-category .categoryMenu a {
+    font-size: 1.8rem;
+    color: var(--black);
+    padding: 1.5rem;
+    padding-bottom: .8rem;
+}
+
+.product-category .categoryMenu a:hover {
+    color: var(--green);
+    border-bottom: .1rem solid var(--black);  
+}
+
+
+.product-category .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.product-category .box-container .box {
+    flex: 1 1 30rem;
+    text-align: center;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    padding: 2rem;
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.product-category .box-container .box img {
+    max-width: 100%;
+    height: 30rem;
+    padding-top: 1rem;
+}
+
+.product-category .box-container .box .discount {
+    position: absolute;
+    top: 1rem; left: 1rem;
+    background: rgba(0, 255, 0, .1);
+    color: var(--green);
+    padding: .7rem 1rem;
+    font-size: 2rem; 
+}
+
+.product-category .box-container .box .icons {
+    position: absolute;
+    top: .5rem; right: -6rem;
+}
+
+.product-category .box-container .box:hover .icons {
+    right: 1rem;
+}
+
+.product-category .box-container .box .icons a {
+    display: block;
+    line-height: 4rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--black);
+    background: rgba(0, 0, 0, .05);
+    margin-top: .5rem;
+}
+
+.product-category .box-container .box .icons a:hover {
+    background-color: var(--green);
+    color: #fff;
+}
+
+.product-category .box-container .box h3 {
+    color: var(--black);
+    font-size: 2.5rem;
+}
+
+.product-category .box-container .box .stars i {
+    padding: 1rem .1rem;
+    color: gold;
+    font-size: 1.7rem;
+}
+
+.product-category .box-container .box .price {
+    font-size: 2rem;
+    color: #333;
+    padding: .5rem 0;
+}
+
+.product-category .box-container .box .price span {
+    font-size: 1.5rem;
+    color: #999;
+    text-decoration: line-through;
+}
+
+.product-category .box-container .box .quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: .5rem  ;
+}
+
+.product-category .box-container .box .quantity span {
+    padding: 0 .7rem;
+    font-size: 1.7rem;
+}
+
+.product-category .box-container .box .quantity input {
+    font-size: 1.5rem;
+    padding: .5rem;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    font-weight: bolder;
+    color: var(--black);
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.product-category .box-container .box .btn {
+    display: block;
+}
